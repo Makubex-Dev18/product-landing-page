@@ -1,0 +1,227 @@
+/*normalizacion*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --default-font: "Monserat";
+  --p-font:"system-ui";
+  --heading-font: "Inter", "sans-serif";
+  --bg-color: #ffffff;
+  --default-sizefont: 16px;
+  --text-color: #000000;
+}
+
+body {
+  margin: 30px;
+  background-color: var(--bg-color);
+  font-family: var(--default-font);
+  color: var(--text-color);
+}
+
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f5f5f5;
+}
+
+#modo-toggle {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 80%;
+}
+
+/*header*/
+
+header {
+  /*background-color: azure;*/
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav a:hover{
+  color: red;
+}
+
+.items {
+  display: flex;
+  gap: 30px;
+  
+}
+
+.items a {
+  font-family: var(--heading-font);
+  font-size: 25px;
+  text-decoration: none;
+  color: green;
+}
+
+.logo {
+  border: 1px solid gray;
+  width: 80px;
+  height: auto;
+  border-radius: 80%;
+}
+
+/*main*/
+.portada {
+  width: 600px;
+}
+
+#hero {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#hero h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#hero button{
+  border-radius: 20px;
+  background-color: beige;
+}
+
+#hero h3{
+  padding: 5px;
+}
+
+#conoceme{
+  margin-top: 200px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: system-ui 
+}
+#conoceme h2{
+  background-color: lightskyblue;
+  margin-bottom: 20px;
+}
+
+#conoceme img{
+  margin-top: 20px;
+  width: 250px;
+}
+
+#experiencia{
+  margin-top: 200px;
+}
+
+#experiencia h2{
+  background-color:lightskyblue;
+  margin-bottom: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#experiencia ul{
+  list-style:  none;
+}
+
+
+#experiencia img{
+  width: 150px;
+  border-radius: 10px;
+  outline-style: double;
+
+}
+
+
+#experiencia p{
+  margin-bottom: 40px;
+}
+
+#skills{
+  margin-top: 200px;
+  
+}
+
+#skills h2{
+  background-color: lightskyblue;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+#skills>ul{
+  margin-left: 45%;
+}
+
+#skills ul li{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 20vh;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight:bold;
+  font-size: var(--default-sizefont);
+  background-color: beige;
+  list-style: none;
+  outline: solid;
+  margin-bottom: 20px;
+  padding-top: 20px;  
+  color: black;
+}
+
+
+#proyectos{
+  margin-top: 100px;
+  text-align: center;
+}
+
+#proyectos>p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#proyectos h2{
+  background-color: lightskyblue;
+
+}
+
+
+.contenedor-proyectos {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.contenedor-proyectos img{
+  width: 500px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.repo-proyecto{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  width: 15%;
+  height: 30px;
+  background-color: beige;
+  outline:solid;
+}
+
+
+
+
+
+
+
+/*footer*/
+footer {
+  margin-top: 20px;
+ 
+}
+
+
+.contacto{
+  margin-bottom: 50px;
+  
+}
