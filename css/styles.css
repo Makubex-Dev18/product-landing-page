@@ -627,11 +627,42 @@ section h2:after {
   transform: scale(1.1);
 }
 
+/* Botón de WhatsApp */
+.whatsapp-button {
+  opacity: 1;
+  position: fixed;
+  bottom: 35px;
+  right: 3px;
+  z-index: 100;
+  /*background-color: #25D366;*/
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.whatsapp-button img {
+  width: 55px;
+  height: 50px;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+
 /* Media queries para dispositivos */
 /* escritorios */
 @media (max-width: 1200px) {
   body {
-    font-size: 15px;
+    font-size: 25px;
   }
 
   section h2 {
