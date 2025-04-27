@@ -1,5 +1,5 @@
 # product-landing-page
-Modulo 1 -lab01
+Modulo 1 -lab01 - Lab02 -Lab03
 1) Explica la estructura semántica que elegiste y justifica tus etiquetas.
 
 mi proyecto es un portafolio personal y profesional explicare rapidamente su estructura 💯
@@ -58,3 +58,17 @@ Explicar los ajustes manuales que le hiciste a la propuesta de la IA para garant
 
 *me ayudo en el parte de proyectos cambiar un div en general, por poner un article a cada proyecto  para mejorar la estructura y legibilidad:
 *en el footer poner la informacion del email y telefono entre otros dentro de un address y ya no un div
+
+# LAB02
+se integro lo mencionado ,design responsive, display flex , como la seccion de testimonios y transiciones
+
+
+![image](https://github.com/user-attachments/assets/5a314d84-3cb9-4ed4-9a67-0a33ba9e477f)
+
+
+
+# LAB03
+
+se integro el display grid mencionado y y los logros adicionales como el boton de whatsaap y mensaje de contacto
+
+![image](https://github.com/user-attachments/assets/0d27d25e-330f-41d6-928a-e51f17eac765)
